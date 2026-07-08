@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mosselkrakers Golf Group - Friendship, Competition and Great Golf Since Day One">
+    <meta name="keywords" content="Mosselkrakers, Golf, Mossel Bay Golf Club, Stableford, Senior Golfers">
+    <meta name="author" content="Mosselkrakers Golf Group">
+
+    <title>Mosselkrakers Golf</title>
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+
+            <div class="logo-area">
+                <i class="fa-solid fa-golf-ball-tee"></i>
+                <div>
+                    <h1>Mosselkrakers Golf</h1>
+                    <p>Friendship, Competition and Great Golf Since Day One</p>
+                </div>
+            </div>
+
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#calendar">Calendar</a></li>
+                    <li><a href="#members">Members</a></li>
+                    <li><a href="#results">Results</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#links">Useful Links</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-buttons">
+                <button id="darkModeBtn" title="Dark Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button id="menuBtn" class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+
+            <div class="hero-content">
+
+                <h2>Welcome to Mosselkrakers Golf</h2>
+
+                <p>
+                    A proud group of senior golfers playing every Tuesday and Friday
+                    at Mossel Bay Golf Club.
+                </p>
+
+                <p>
+                    Friendly rivalry, Stableford competitions, Fourballs, Pairs,
+                    lasting friendships and legendary monthly Worsbraais.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#" class="btn primary">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Tee Sheet
+                    </a>
+
+                    <a href="#" class="btn secondary">
+                        <i class="fa-solid fa-check-to-slot"></i>
+                        Option Poll
+                    </a>
+
+                    <a href="#members" class="btn secondary">
+                        <i class="fa-solid fa-users"></i>
+                        Members
+                    </a>
+
+                    <a href="#results" class="btn secondary">
+                        <i class="fa-solid fa-trophy"></i>
+                        Results
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section">
+        <div class="container">
+
+            <h2>About the Mosselkrakers</h2>
+
+            <p>
+                The Mosselkrakers are a group of enthusiastic senior golfers
+                who enjoy the challenge and camaraderie of regular golf at
+                Mossel Bay Golf Club.
+            </p>
+
+            <p>
+                Members compete in Stableford events, Fourball matches and
+                Pair competitions while enjoying one of South Africa's most
+                scenic golf courses.
+            </p>
+
+            <blockquote>
+                “See the sea from every tee.”
+            </blockquote>
+
+        </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="section alt-section">
+
+        <div class="container">
+
+            <h2>Latest News</h2>
+
+            <div class="card-grid">
+
+                <article class="card">
+                    <span class="date">5 July 2026</span>
+                    <h3>Monthly Worsbraai Success</h3>
+                    <p>
+                        Another excellent gathering after golf with great food,
+                        stories and camaraderie.
+                    </p>
+                    <a href="#">Read More</a>
+                </article>
+
+                <article class="card">
+                    <span class="date">1 July 2026</span>
+                    <h3>Winter Stableford Challenge</h3>
+                    <p>
+                        Strong participation despite windy conditions around
+                        the course.
+                    </p>
+                    <a href="#">Read More</a>
+                </article>
+
+                <article class="card">
+                    <span class="date">28 June 2026</span>
+                    <h3>Prize Money Update</h3>
+                    <p>
+                        Latest standings have been published for member review.
+                    </p>
+                    <a href="#">Read More</a>
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Calendar -->
+    <section id="calendar" class="section">
+
+        <div class="container">
+
+            <h2>Upcoming Events</h2>
+
+            <div class="calendar-grid">
+
+                <div class="event">
+                    <h4>Tuesday Golf Day</h4>
+                    <p>Every Tuesday</p>
+                </div>
+
+                <div class="event">
+                    <h4>Friday Golf Day</h4>
+                    <p>Every Friday</p>
+                </div>
+
+                <div class="event">
+                    <h4>Monthly Worsbraai</h4>
+                    <p>Last Friday of Month</p>
+                </div>
+
+                <div class="event">
+                    <h4>Prize Giving</h4>
+                    <p>Monthly</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Members -->
+    <section id="members" class="section alt-section">
+
+        <div class="container">
+
+            <h2>Members Directory</h2>
+
+            <input
+                type="text"
+                id="memberSearch"
+                placeholder="Search member..."
+                class="search-box">
+
+            <div class="member-grid" id="memberGrid">
+
+                <div class="member-card">
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <h3>John Smith</h3>
+                    <p>Nickname: Eagle</p>
+                </div>
+
+                <div class="member-card">
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <h3>Peter Jones</h3>
+                    <p>Nickname: Birdie</p>
+                </div>
+
+                <div class="member-card">
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <h3>Mike Brown</h3>
+                    <p>Nickname: Captain</p>
+                </div>
+
+                <div class="member-card">
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <h3>David Green</h3>
+                    <p>Nickname: Long Drive</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="section">
+
+        <div class="container">
+
+            <h2>Competition Results</h2>
+
+            <div class="table-container">
+
+                <h3>Latest Results</h3>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Competition</th>
+                            <th>Winner</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>03 Jul 2026</td>
+                            <td>Stableford</td>
+                            <td>John Smith</td>
+                            <td>41</td>
+                        </tr>
+
+                        <tr>
+                            <td>30 Jun 2026</td>
+                            <td>Fourball</td>
+                            <td>Peter Jones</td>
+                            <td>39</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div class="table-container">
+
+                <h3>Prize Money Standings</h3>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Member</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John Smith</td>
+                            <td>R1,250</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Peter Jones</td>
+                            <td>R1,100</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section alt-section">
+
+        <div class="container">
+
+            <h2>Photo Gallery</h2>
+
+            <div class="gallery-filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Golf Days</button>
+                <button class="filter-btn">Worsbraais</button>
+                <button class="filter-btn">Prize Giving</button>
+                <button class="filter-btn">Special Events</button>
+            </div>
+
+            <div class="gallery-grid">
+
+                <img src="https://picsum.photos/400/300?1" alt="">
+                <img src="https://picsum.photos/400/300?2" alt="">
+                <img src="https://picsum.photos/400/300?3" alt="">
+                <img src="https://picsum.photos/400/300?4" alt="">
+                <img src="https://picsum.photos/400/300?5" alt="">
+                <img src="https://picsum.photos/400/300?6" alt="">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Links -->
+    <section id="links" class="section">
+
+        <div class="container">
+
+            <h2>Useful Links</h2>
+
+            <div class="card-grid">
+
+                <a class="link-card" href="#" target="_blank">
+                    Mossel Bay Golf Club
+                </a>
+
+                <a class="link-card" href="#" target="_blank">
+                    HNA Handicap System
+                </a>
+
+                <a class="link-card" href="#" target="_blank">
+                    Tee Sheet Application
+                </a>
+
+                <a class="link-card" href="#" target="_blank">
+                    Option Poll Application
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section alt-section">
+
+        <div class="container">
+
+            <h2>Contact Us</h2>
+
+            <div class="contact-grid">
+
+                <div>
+
+                    <h3>Administrator</h3>
+
+                    <p>Email:</p>
+
+                    <a href="mailto:admin@mosselkrakers.co.za">
+                        admin@mosselkrakers.co.za
+                    </a>
+
+                    <div class="map-placeholder">
+                        Google Maps Placeholder
+                    </div>
+
+                </div>
+
+                <form class="contact-form">
+
+                    <input type="text" placeholder="Your Name" required>
+
+                    <input type="email" placeholder="Email Address" required>
+
+                    <input type="text" placeholder="Subject">
+
+                    <textarea rows="6" placeholder="Message"></textarea>
+
+                    <button type="submit" class="btn primary">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 Mosselkrakers Golf Group |
+                Mossel Bay Golf Club |
+                Friendship • Competition • Golf
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span id="closeLightbox">&times;</span>
+        <img id="lightboxImage" src="" alt="">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
